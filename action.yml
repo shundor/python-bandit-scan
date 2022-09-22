@@ -1,5 +1,8 @@
 name: 'Bandit Scan'
 description: 'Bandit Scan'
+branding:
+  icon: arrow-left
+  color: purple
 inputs:
   path:
     description: 'File or directory to run bandit on'
