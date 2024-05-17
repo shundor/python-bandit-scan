@@ -113,13 +113,13 @@ runs:
         INPUT_INI_PATH: ${{ inputs.ini_path }}        
 
     - name: Upload artifact
-      uses: actions/upload-artifact@main
+      uses: actions/upload-artifact@v4
       with:
         name: results.sarif
         path: results.sarif
 
     - name: Upload SARIF file
-      uses: github/codeql-action/upload-sarif@v2
+      uses: github/codeql-action/upload-sarif@v3
       with:
         sarif_file: results.sarif
 
