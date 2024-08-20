@@ -1,3 +1,4 @@
+# This is a fork to update the codeql sarif from v2 to v3 as the v2 will be deprecated in december. All credits to https://github.com/shundor/python-bandit-scan
 # Bandit Scan
 
 Run Python [Bandit](https://github.com/PyCQA/bandit) scan on your codebase.
